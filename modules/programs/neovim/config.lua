@@ -135,8 +135,9 @@ vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
 local capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
+capabilities.textDocument.completion.completionItem.snippetSupport = true;
 
-local servers = { "cssls", "hls", "html", "julials", "pylsp", "rnix", "rust_analyzer", "sumneko_lua", "tsserver" }
+local servers = { "cssls", "hls", "html", "julials", "pylsp", "rnix", "rust_analyzer", "tsserver" }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
@@ -147,8 +148,17 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- I think synctex should be configured here. Most other settings are
--- configured in latex.nix
+nvim_lsp.sumneko_lua.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  flags = {
+    debounce_text_changes = 150,
+  },
+  diagnostics = {
+    globals = { "vim" }
+  }
+}
+
 nvim_lsp.texlab.setup {
   on_attach = on_attach,
   capabilities = capabilities,
