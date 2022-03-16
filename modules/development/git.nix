@@ -1,9 +1,14 @@
 { config, pkgs, ... }:
 
-{ 
+{
   programs.git = {
     enable = true;
-    userName = "Akiyoshi Suda";
+
     userEmail = "aki.suda@protonmail.com";
+    userName = "Akiyoshi Suda";
+
+    extraConfig = {
+      init = { defaultBranch = "main"; };
+    };
   };
 }
