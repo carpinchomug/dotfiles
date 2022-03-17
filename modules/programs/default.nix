@@ -15,6 +15,7 @@
     bat
     zip unzip
     termite
+    efibootmgr
   ];
 
   programs.exa = {
