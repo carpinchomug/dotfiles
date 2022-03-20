@@ -13,7 +13,7 @@ in
 
     config = {
       modifier = "Mod4";
-      terminal = "alacritty";
+      terminal = "kitty";
       menu = "wofi --show run | xargs swaymsg exec --";
       bars = [
         { command = "waybar"; }
