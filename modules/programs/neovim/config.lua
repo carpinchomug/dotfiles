@@ -32,11 +32,9 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { noremap = true })
 
 
 -- UI
-local onedark = require "onedark"
-onedark.setup {
-  style = "darker"
-}
-onedark.load()
+local rosepine = require "rose-pine"
+rosepine.setup {}
+vim.cmd "colorscheme rose-pine"
 
 
 -- Treesitter
