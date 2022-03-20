@@ -6,13 +6,9 @@
 
     font = {
       name = "FiraCode Nerd Font";
-      size = 14;
+      size = 12;
     };
 
     theme = "Rosé Pine";
-
-    # extraConfig = ''
-    #   include ${builtins.toString ./rose-pine.conf}
-    # '';
   };
 }
