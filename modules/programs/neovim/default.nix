@@ -1,5 +1,12 @@
-{ config, pkgs, ... }:
+{ config, pkgs, rose-pine-neovim, ... }:
 
+let
+  rose-pine-nvim = pkgs.vimUtils.buildVimPlugin {
+    name = "rose-pine-nvim";
+    src = rose-pine-neovim;
+  };
+
+in
 {
   programs.neovim = {
     enable = true;
@@ -32,6 +39,7 @@
       (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
 
       onedark-nvim
+      rose-pine-nvim
     ];
 
     extraConfig = ''

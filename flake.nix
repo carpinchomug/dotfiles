@@ -3,19 +3,24 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    home-manager.url = "github:nix-community/home-manager";
-    home-manager.inputs.nixpkgs.follows = "nixpkgs";
+
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    rose-pine-neovim = {
+      url = "github:rose-pine/neovim";
+      flake = false;
+    };
   };
 
-  outputs = { self, nixpkgs, home-manager }@inputs: {
+  outputs = { nixpkgs, home-manager, rose-pine-neovim, ... }: {
     homeConfigurations.akiyoshi =
-      let
+      home-manager.lib.homeManagerConfiguration rec {
         system = "x86_64-linux";
-        username = "akiyoshi";
 
-      in
-      home-manager.lib.homeManagerConfiguration {
-        inherit system username;
+        username = "akiyoshi";
 
         homeDirectory = "/home/${username}";
 
@@ -39,7 +44,7 @@
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
         extraSpecialArgs = {
-          inherit inputs system;
+          inherit rose-pine-neovim;
         };
       };
   };
