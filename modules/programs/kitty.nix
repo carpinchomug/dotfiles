@@ -10,5 +10,10 @@
     };
 
     theme = "Rosé Pine";
+
+    settings = {
+      # can't be directly set with a float value
+      background_opacity = "0.9";
+    };
   };
 }
