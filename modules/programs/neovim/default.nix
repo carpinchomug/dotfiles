@@ -32,16 +32,6 @@
       (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
     ];
 
-    extraPackages = with pkgs; [
-      haskell-language-server
-      nodePackages.typescript-language-server
-      nodePackages.vscode-langservers-extracted
-      rnix-lsp
-      rust-analyzer
-      sumneko-lua-language-server
-      texlab
-    ];
-
     extraConfig = ''
       lua << EOF
       ${builtins.readFile ./config.lua}
