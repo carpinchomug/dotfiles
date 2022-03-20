@@ -6,6 +6,7 @@
     ./neovim
     ./alacritty.nix
     ./chromium.nix
+    ./kitty.nix
     ./starship.nix
     ./zathura.nix
   ];
