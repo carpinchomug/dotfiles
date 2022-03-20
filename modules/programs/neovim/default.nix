@@ -30,6 +30,8 @@
       nightfox-nvim
 
       (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
+
+      onedark-nvim
     ];
 
     extraConfig = ''

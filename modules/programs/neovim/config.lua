@@ -32,8 +32,11 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { noremap = true })
 
 
 -- UI
-local nightfox = require "nightfox"
-nightfox.load()
+local onedark = require "onedark"
+onedark.setup {
+  style = "darker"
+}
+onedark.load()
 
 
 -- Treesitter
