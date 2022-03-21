@@ -17,6 +17,7 @@
 
 
     # JavaScript & TypeScript
+    nodejs
     nodePackages.typescript-language-server
 
 
