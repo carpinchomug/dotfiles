@@ -24,6 +24,7 @@ in
 
       luasnip
       cmp_luasnip
+      friendly-snippets
 
       comment-nvim
 
