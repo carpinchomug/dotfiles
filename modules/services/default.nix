@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  imports = [ ./fcitx5.nix ];
+
   services.gnome-keyring.enable = true;
   services.udiskie.enable = true;
 
