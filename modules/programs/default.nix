@@ -7,6 +7,7 @@
     ./alacritty.nix
     ./chromium.nix
     ./kitty.nix
+    ./helix.nix
     ./starship.nix
     ./zathura.nix
   ];
