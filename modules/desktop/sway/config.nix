@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 let
-  wallpaper = builtins.toString (../wallpapers + "/wallpaper.png");
+  wallpaper = builtins.toString (../wallpapers + "/serenity.png");
 
 in
 {
