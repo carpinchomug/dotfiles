@@ -11,13 +11,13 @@
     };
 
     iconTheme = {
-      package = pkgs.pop-icon-theme;
-      name = "Papirus";
+      package = pkgs.zafiro-icons;
+      name = "Zafiro";
     };
 
     theme = {
-      package = pkgs.pop-gtk-theme;
-      name = "Pop";
+      package = pkgs.rose-pine-gtk-theme;
+      name = "Rose Pine";
     };
 
     gtk3.extraConfig = {
