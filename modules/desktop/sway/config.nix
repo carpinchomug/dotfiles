@@ -14,6 +14,7 @@ in
     config = {
       modifier = "Mod4";
       terminal = "kitty";
+
       menu = "wofi --show run | xargs swaymsg exec --";
       bars = [
         { command = "waybar"; }

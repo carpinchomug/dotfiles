@@ -3,6 +3,7 @@
 {
   imports = [
     ./firefox
+    ./librewolf
     ./neovim
     ./alacritty.nix
     ./chromium.nix
