@@ -34,6 +34,10 @@ in
 
       output.eDP-1 = { bg = "${wallpaper} fill"; };
 
+      gaps = {
+        inner = 10;
+      };
+
       startup = [
         {
           command = ''
