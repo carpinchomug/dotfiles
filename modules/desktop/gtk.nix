@@ -12,12 +12,12 @@
 
     iconTheme = {
       package = pkgs.zafiro-icons;
-      name = "Zafiro";
+      name = "Zafiro-icons";
     };
 
     theme = {
       package = pkgs.rose-pine-gtk-theme;
-      name = "Rose Pine";
+      name = "Rose-Pine";
     };
 
     gtk3.extraConfig = {
