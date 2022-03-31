@@ -23,6 +23,7 @@ window#waybar.hidden {
 
 #workspaces button.focused {
   color: #e0def4;
+  border-bottom: #e0def4;
 }
 
 #workspaces button.urgent {

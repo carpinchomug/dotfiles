@@ -25,7 +25,7 @@
 
         clock = {
           format = "{:%H:%M}";
-          tooltip-format = "<big>{:%Y %B}</big>\n\n<tt><big>{calendar}</big></tt>";
+          tooltip-format = "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>";
         };
 
         idle_inhibitor = {
