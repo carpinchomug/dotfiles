@@ -4,6 +4,11 @@
   programs.zathura = {
     enable = true;
 
+    options = {
+      recolor = true;
+      # recolor-keephue = false;
+    };
+
     extraConfig = ''
       # https://github.com/rose-pine/rose-pine-theme
       # Soho vibes for Zathura: Rosé Pine
@@ -43,9 +48,6 @@
 
       set recolor-lightcolor          "#191724"
       set recolor-darkcolor           "#e0def4"
-
-      set recolor                     "false"
-      set recolor-keephue             "false"
     '';
   };
 }
