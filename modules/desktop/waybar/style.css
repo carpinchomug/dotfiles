@@ -15,10 +15,11 @@ window#waybar.hidden {
 }
 
 #workspaces {
-  margin: 5px 0px;
+  margin: 5px 0;
 }
 #workspaces button {
-  padding: 0 5px;
+  margin: 0 2px;
+  padding: 0 3px;
   color: #6e6a86;
   background-color: transparent;
   border: none;
