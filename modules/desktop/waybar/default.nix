@@ -40,8 +40,6 @@
           format-muted = "";
           format-bluetooth = "{volume}% {icon}";
           format-bluetooth-muted = "";
-          # format-source = "{volume}% ";
-          # format-source-muted = "";
           format-icons = {
             headphone = "";
             default = [ "" "" "" ];
@@ -81,8 +79,8 @@
           };
           format = "{capacity}% {icon}";
           format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
-          format-charging = "{capacity}% {icon}";
-          format-plugged = "{capacity}% {icon}";
+          format-charging = "{capacity}% {icon} ";
+          format-plugged = "{capacity}% {icon} ";
           # format-plugged-good = "";
           format-icons = [ "" "" "" "" "" ];
         };
