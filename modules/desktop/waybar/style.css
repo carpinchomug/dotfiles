@@ -35,6 +35,11 @@ window#waybar.hidden {
   color: #eb6f92;
 }
 
+#workspaces button:hover {
+  box-shadow: none;
+}
+
+
 #window {
   padding-left: 15px;
   padding-right: 10px;
