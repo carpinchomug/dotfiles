@@ -8,7 +8,7 @@ in
   wayland.windowManager.sway = {
     config = {
       keybindings = lib.mkOptionDefault {
-        "${cfg.modifier}+b" = "exec firefox";
+        "${cfg.modifier}+b" = "exec librewolf";
 
         "XF86AudioMute" = "exec 'pactl set-sink-mute @DEFAULT_SINK@ toggle'";
         "XF86AudioRaiseVolume" = "exec 'pactl set-sink-volume @DEFAULT_SINK@ +1%'";
