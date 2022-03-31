@@ -8,12 +8,15 @@
     gsettings-desktop-schemas
     imv
     mako
-    pavucontrol
-    pulseaudio
     slurp
     swaylock
     swayidle
     wofi
     wl-clipboard
+
+    # audio stuff
+    pulseaudio
+    pavucontrol
+    pamixer
   ];
 }
