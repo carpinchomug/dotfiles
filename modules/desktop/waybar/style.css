@@ -1,3 +1,27 @@
 * {
   font-family: "NotoSans Nerd Font", "Noto Sans", "Noto Sans CJK JP", sans-serif;
+  font-size: 14px;
+}
+
+window#waybar {
+  color: rgb(224, 222, 244);
+  background-color: rgba(25, 23, 36, 0.9);
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+
+#clock,
+#pulseaudio
+#network,
+#cpu,
+#memory,
+#backlight,
+#battery,
+#tray {
+  padding: 0 10px;
 }
