@@ -22,7 +22,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-  color: #31748f;
+  color: #9ccfd8;
   font-weight: bold;
 }
 
@@ -32,7 +32,8 @@ window#waybar.hidden {
 }
 
 #window {
-  padding: 0 10px;
+  padding-left: 15px;
+  padding-right: 10px;
 }
 
 #clock,
