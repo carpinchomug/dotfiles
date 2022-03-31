@@ -1,0 +1,65 @@
+* {
+  font-family: "NotoSans Nerd Font", "Noto Sans", "Noto Sans CJK JP", sans-serif;
+  font-size: 15px;
+}
+
+window#waybar {
+  color: rgb(224, 222, 244);
+  background-color: rgba(25, 23, 36, 0.9);
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {
+  margin-left: 5px;
+}
+#workspaces button {
+  margin: 5px;
+  padding: 0 0;
+  color: #6e6a86;
+  background-color: transparent;
+  border: none;
+}
+
+#workspaces button.focused {
+  color: #e0def4;
+  border-bottom: 1px solid #e0def4;
+  border-radius: 0px;
+}
+
+#workspaces button.urgent {
+  color: #eb6f92;
+}
+
+#workspaces button:hover {
+  box-shadow: none;
+}
+
+
+#window {
+  padding-left: 15px;
+  padding-right: 10px;
+  background-color: transparent;
+}
+
+#clock,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#backlight,
+#battery,
+#tray {
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+tooltip {
+  color: rgb(224, 222, 244);
+  background-color: rgba(25, 23, 36, 0.75);
+}
