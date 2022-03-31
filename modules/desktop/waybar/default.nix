@@ -12,6 +12,7 @@
         modules-left = [ "sway/workspaces" "sway/window" ];
         modules-center = [ "clock" ];
         modules-right = [
+          "idle_inhibitor"
           "pulseaudio"
           "network"
           "cpu"
@@ -24,6 +25,14 @@
         clock = {
           format = "{:%H:%M}";
           tooltip-format = "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
+        };
+
+        idle_inhibitor = {
+          format = "{icon}";
+          format-icons = {
+            activated = "";
+            deactivated = "";
+          };
         };
 
         pulseaudio = {
