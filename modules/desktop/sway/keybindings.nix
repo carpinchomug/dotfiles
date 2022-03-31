@@ -8,12 +8,17 @@ in
   wayland.windowManager.sway = {
     config = {
       keybindings = lib.mkOptionDefault {
-        "${cfg.modifier}+b" = "exec librewolf";
+        "${cfg.modifier}+b" = "exec firefox";
 
-        "XF86AudioMute" = "exec 'pactl set-sink-mute @DEFAULT_SINK@ toggle'";
-        "XF86AudioRaiseVolume" = "exec 'pactl set-sink-volume @DEFAULT_SINK@ +1%'";
-        "XF86AudioLowerVolume" = "exec 'pactl set-sink-volume @DEFAULT_SINK@ -1%'";
-        "XF86AudioMicMute" = "exec 'pactl set-source-mute @DEFAULT_SOURCE@ toggle'";
+        # "XF86AudioMute" = "exec 'pactl set-sink-mute @DEFAULT_SINK@ toggle'";
+        # "XF86AudioRaiseVolume" = "exec 'pactl set-sink-volume @DEFAULT_SINK@ +1%'";
+        # "XF86AudioLowerVolume" = "exec 'pactl set-sink-volume @DEFAULT_SINK@ -1%'";
+        # "XF86AudioMicMute" = "exec 'pactl set-source-mute @DEFAULT_SOURCE@ toggle'";
+
+        "XF86AudioMute" = "exec pamixer --toggle";
+        "XF86AudioRaiseVolume" = "exec pamixer --increase 5";
+        "XF86AudioLowerVolume" = "exec pamixer --decrease 5";
+        "XF86AudioMicMute" = "exec pamixer --default-source --toggle";
 
         "XF86MonBrightnessDown" = "exec brightnessctl set 5%-";
         "XF86MonBrightnessUp" = "exec brightnessctl set +5%";
