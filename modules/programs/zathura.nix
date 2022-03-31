@@ -6,7 +6,7 @@
 
     options = {
       recolor = true;
-      # recolor-keephue = false;
+      recolor-keephue = true;
     };
 
     extraConfig = ''
