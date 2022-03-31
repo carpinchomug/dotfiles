@@ -1,11 +1,11 @@
 * {
   font-family: "NotoSans Nerd Font", "Noto Sans", "Noto Sans CJK JP", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 window#waybar {
   color: rgb(224, 222, 244);
-  background-color: rgba(25, 23, 36, 0.9);
+  background-color: rgba(25, 23, 36, 0.7);
   transition-property: background-color;
   transition-duration: .5s;
 }
@@ -22,13 +22,17 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-  color: #e0def4;
+  color: #31748f;
   font-weight: bold;
 }
 
 #workspaces button.urgent {
   font-weight: bold;
   color: #eb6f92;
+}
+
+#window {
+  padding: 0 10px;
 }
 
 #clock,
