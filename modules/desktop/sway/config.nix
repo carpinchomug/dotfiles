@@ -40,7 +40,7 @@ in
       };
 
       window = {
-        border = 5;
+        border = 3;
       };
 
       colors = {
