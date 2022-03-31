@@ -14,6 +14,11 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+tooltip {
+  color: rgb(224, 222, 244);
+  background-color: rgba(25, 23, 36, 0.75);
+}
+
 #workspaces {
   margin-left: 5px;
 }
@@ -53,13 +58,12 @@ window#waybar.hidden {
 #cpu,
 #memory,
 #backlight,
-#battery,
-#tray {
+#battery {
   padding: 0 10px;
   background-color: transparent;
 }
 
-tooltip {
-  color: rgb(224, 222, 244);
-  background-color: rgba(25, 23, 36, 0.75);
+#tray {
+  padding: 0 10px 0 15px;
+  background-color: transparent;
 }
