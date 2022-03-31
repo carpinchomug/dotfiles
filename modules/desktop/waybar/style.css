@@ -14,9 +14,8 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-
 #clock,
-#pulseaudio
+#pulseaudio,
 #network,
 #cpu,
 #memory,
