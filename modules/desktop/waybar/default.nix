@@ -79,9 +79,10 @@
           };
           format = "{capacity}% {icon}";
           format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
-          format-charging = "{capacity}% {icon} ";
-          format-plugged = "{capacity}% {icon} ";
-          # format-plugged-good = "";
+          format-critical = "{capacity}% <span color='#eb6f92'>{icon}</span>";
+          format-charging = "{capacity}% {icon}";
+          format-plugged = "{capacity}% {icon}";
+          format-plugged-good = "{capacity}% <span color='#31748f'>{icon}</span>";
           format-icons = [ "" "" "" "" "" ];
         };
 
