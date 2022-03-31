@@ -35,7 +35,7 @@
           # format-source-muted = "";
           format-icons = {
             headphone = "";
-            default = "";
+            default = [ "" "" "" ];
           };
           on-click = "pavucontrol";
         };
