@@ -49,7 +49,7 @@
 
         network = {
           format = "{ifname}";
-          format-wifi = "{signalStrength}% ";
+          format-wifi = "{signalStrength}% 直";
           format-ethernet = "{ipaddr}/{cidr} ";
           format-disconnected = ""; # An empty format will hide the module
           tooltip-format = "{ifname} via {gwaddr} ";
@@ -73,17 +73,15 @@
 
         battery = {
           states = {
-            good = 90;
             warning = 30;
             critical = 15;
           };
           format = "{capacity}% {icon}";
           format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
           format-critical = "{capacity}% <span color='#eb6f92'>{icon}</span>";
-          format-charging = "{capacity}% {icon}";
-          format-plugged = "{capacity}% {icon}";
-          format-plugged-good = "{capacity}% <span color='#31748f'>{icon}</span>";
-          format-icons = [ "" "" "" "" "" ];
+          format-charging = "{capacity}% ";
+          format-plugged = "{capacity}% ";
+          format-icons = [ "" "" "" "" "" ];
         };
 
         tray = {
