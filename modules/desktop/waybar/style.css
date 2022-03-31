@@ -1,6 +1,6 @@
 * {
   font-family: "NotoSans Nerd Font", "Noto Sans", "Noto Sans CJK JP", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 window#waybar {
@@ -16,7 +16,7 @@ window#waybar.hidden {
 
 #workspaces button {
   padding: 0 5px;
-  color: #908caa;
+  color: #6e6a86;
   background-color: transparent;
   border: none;
 }
