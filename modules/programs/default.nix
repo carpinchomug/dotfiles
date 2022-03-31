@@ -18,6 +18,7 @@
     bat
     zip unzip
     termite
+    obsidian
   ];
 
   programs.exa = {

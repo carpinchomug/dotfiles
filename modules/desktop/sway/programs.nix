@@ -8,6 +8,7 @@
     gsettings-desktop-schemas
     imv
     mako
+    pavucontrol
     pulseaudio
     slurp
     swaylock
