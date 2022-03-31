@@ -39,6 +39,41 @@ in
         inner = 10;
       };
 
+      window = {
+        border = 3;
+      };
+
+      colors = {
+        focused = {
+          border = "#31748f";
+          background = "#26233a";
+          text = "#e0def4";
+          indicator = "#9ccfd8";
+          childBorder = "#31748f";
+        };
+        focusedInactive = {
+          border = "#31748f";
+          background = "#26233a";
+          text = "#e0def4";
+          indicator = "#908caa";
+          childBorder = "#403d52";
+        };
+        unfocused = {
+          border = "#31748f";
+          background = "#26233a";
+          text = "#6e6a86";
+          indicator = "#524f67";
+          childBorder = "#21202e";
+        };
+        urgent = {
+          border = "#31748f";
+          background = "#26233a";
+          text = "#e0def4";
+          indicator = "#ebbcba";
+          childBorder = "#eb6f92";
+        };
+      };
+
       startup = [
         {
           command = ''
