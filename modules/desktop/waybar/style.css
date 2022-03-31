@@ -1,6 +1,6 @@
 * {
   font-family: "NotoSans Nerd Font", "Noto Sans", "Noto Sans CJK JP", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 window#waybar {
@@ -14,6 +14,22 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+#workspaces button {
+  padding: 0 5px;
+  color: #908caa;
+  background-color: transparent;
+  border: none;
+}
+
+#workspaces button.focused {
+  font-weight: bold;
+}
+
+#workspaces button.urgent {
+  font-weight: bold;
+  color: #eb6f92;
+}
+
 #clock,
 #idle_inhibitor,
 #pulseaudio,
@@ -24,4 +40,5 @@ window#waybar.hidden {
 #battery,
 #tray {
   padding: 0 10px;
+  background-color: transparent;
 }
