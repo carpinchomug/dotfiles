@@ -18,10 +18,7 @@ window#waybar.hidden {
   margin-left: 5px;
 }
 #workspaces button {
-  margin-top: 0;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-bottom: 5px;
+  margin: 5px;
   padding: 0 0;
   color: #6e6a86;
   background-color: transparent;
