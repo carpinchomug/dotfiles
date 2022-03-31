@@ -24,6 +24,7 @@ window#waybar.hidden {
 #workspaces button.focused {
   color: #e0def4;
   border-bottom: 2px solid #e0def4;
+  border-radius: 0px;
 }
 
 #workspaces button.urgent {
