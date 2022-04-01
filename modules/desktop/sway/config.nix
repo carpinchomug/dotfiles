@@ -32,6 +32,11 @@ in
 
       output.eDP-1 = { bg = "${wallpaper} fill"; };
 
+      fonts = {
+        names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
+        size = 12;
+      };
+
       gaps = {
         inner = 10;
       };
