@@ -32,6 +32,11 @@ in
 
       output.eDP-1 = { bg = "${wallpaper} fill"; };
 
+      fonts = {
+        names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
+        size = 10.0;
+      };
+
       gaps = {
         inner = 10;
       };
@@ -42,32 +47,32 @@ in
 
       colors = {
         focused = {
-          border = "#31748f";
-          background = "#26233a";
+          border = "#232136";
+          background = "#232136";
           text = "#e0def4";
           indicator = "#9ccfd8";
           childBorder = "#31748f";
         };
         focusedInactive = {
-          border = "#31748f";
-          background = "#26233a";
+          border = "#232136";
+          background = "#232136";
           text = "#e0def4";
-          indicator = "#908caa";
-          childBorder = "#403d52";
+          indicator = "#524f67";
+          childBorder = "#26233a";
         };
         unfocused = {
-          border = "#31748f";
-          background = "#26233a";
+          border = "#232136";
+          background = "#232136";
           text = "#6e6a86";
           indicator = "#524f67";
-          childBorder = "#21202e";
+          childBorder = "#26233a";
         };
         urgent = {
-          border = "#31748f";
-          background = "#26233a";
-          text = "#e0def4";
-          indicator = "#ebbcba";
-          childBorder = "#eb6f92";
+          border = "#232136";
+          background = "#232136";
+          text = "#eb6f92";
+          indicator = "#524f67";
+          childBorder = "#26233a";
         };
       };
 
