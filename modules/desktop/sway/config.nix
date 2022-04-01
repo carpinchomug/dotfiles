@@ -47,8 +47,8 @@ in
 
       colors = {
         focused = {
-          border = "#31748f";
-          background = "#26233a";
+          border = "#9ccfd8";
+          background = "#31748f";
           text = "#e0def4";
           indicator = "#9ccfd8";
           childBorder = "#31748f";
