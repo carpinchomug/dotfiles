@@ -34,7 +34,7 @@ in
 
       fonts = {
         names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
-        size = 10.0;
+        size = 11.0;
       };
 
       gaps = {
