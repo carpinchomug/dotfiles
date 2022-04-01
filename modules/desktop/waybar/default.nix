@@ -80,9 +80,7 @@
           format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
           format-critical = "{capacity}% <span color='#eb6f92'>{icon}</span>";
           format-charging = "{capacity}% ";
-          format-plugged = "{capacity}% ";
-          format-charging-full = "{capacity}% ";
-          format-plagged-full = "{capacity}% ";
+          format-plugged = "{capacity}% ";
 
           format-icons = [ "" "" "" "" "" ];
         };
