@@ -23,8 +23,10 @@ in
 
 
         # layout
-        "${mod}+s" = "splith";
-        "${mod}+v" = "splitv";
+
+        # to be consistent with vim split keybindings
+        "${mod}+s" = "splitv";
+        "${mod}+v" = "splith";
 
         "${mod}+t" = "layout tabbed";
         "${mod}+e" = "layout toggle split";
