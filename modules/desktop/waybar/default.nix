@@ -8,7 +8,7 @@
       {
         layer = "top";
         position = "top";
-        height = 31;
+        height = 32;
 
         modules-left = [ "sway/workspaces" "sway/window" ];
         modules-center = [ "clock" ];
