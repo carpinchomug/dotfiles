@@ -19,11 +19,12 @@ tooltip {
   background-color: rgba(25, 23, 36, 0.75);
 }
 
-#workspaces {
-  margin-left: 5px;
-}
+/* #workspaces { */
+/*   margin-left: 5px; */
+/* } */
+
 #workspaces button {
-  margin: 5px;
+  margin: 0 5px;
   padding: 0 0;
   color: #6e6a86;
   background-color: transparent;
@@ -32,8 +33,6 @@ tooltip {
 
 #workspaces button.focused {
   color: #e0def4;
-  border-bottom: 1px solid #e0def4;
-  border-radius: 0px;
 }
 
 #workspaces button.urgent {
