@@ -6,7 +6,8 @@
 
     settings = {
       main = {
-        font = "FiraCode Nerd Font:size=8";
+        font = "FiraCode Nerd Font:size=12";
+        dpi-aware = "no";
       };
 
       cursor = {
