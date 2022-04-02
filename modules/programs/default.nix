@@ -5,10 +5,8 @@
     ./firefox
     ./librewolf
     ./neovim
-    ./alacritty.nix
     ./chromium.nix
     ./foot.nix
-    ./kitty.nix
     ./helix.nix
     ./starship.nix
     ./zathura.nix
