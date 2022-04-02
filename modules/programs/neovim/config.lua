@@ -33,7 +33,10 @@ map("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { noremap = true })
 
 -- UI
 local rosepine = require "rose-pine"
-rosepine.setup {}
+rosepine.setup {
+  disable_background = true,
+  disable_float_background = true,
+}
 vim.cmd "colorscheme rose-pine"
 
 
