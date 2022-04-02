@@ -13,7 +13,7 @@ in
 
     config = {
       modifier = "Mod4";
-      terminal = "kitty";
+      terminal = "foot";
       menu = "wofi --show run | xargs swaymsg exec --";
       bars = [ { command = "waybar"; } ];
 
@@ -34,7 +34,7 @@ in
 
       fonts = {
         names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
-        size = 11.0;
+        size = 12.0;
       };
 
       gaps = {
