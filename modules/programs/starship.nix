@@ -6,7 +6,7 @@
 
     settings = {
       nix_shell = {
-        symbol = "❄️ ";
+        symbol = " ";
       };
     };
   };
