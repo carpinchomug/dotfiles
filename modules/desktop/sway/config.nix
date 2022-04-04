@@ -30,7 +30,7 @@ in
         };
       };
 
-      output.eDP-1 = { bg = "${wallpaper.serenity} fill"; };
+      output.eDP-1 = { bg = "${wallpapers.serenity} fill"; };
 
       fonts = {
         names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
