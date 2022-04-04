@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 let
-  wallpaper = builtins.toString (../wallpapers + "/serenity.png");
+  wallpapers = import ./wallpapers;
 
 in
 {
@@ -30,7 +30,7 @@ in
         };
       };
 
-      output.eDP-1 = { bg = "${wallpaper} fill"; };
+      output.eDP-1 = { bg = "${wallpaper.serenity} fill"; };
 
       fonts = {
         names = [ "Noto Sans" "Noto Sans CJK JP" "NotoSans Nerd Font" ];
