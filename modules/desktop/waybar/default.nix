@@ -74,12 +74,12 @@
 
         battery = {
           states = {
+            critical = 20;
             warning = 30;
-            critical = 15;
           };
           format = "{capacity}% {icon}";
-          format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
           format-critical = "{capacity}% <span color='#eb6f92'>{icon}</span>";
+          format-warning = "{capacity}% <span color='#f6c177'>{icon}</span>";
           format-charging = "{capacity}% ";
           format-plugged = "{capacity}% ";
 
