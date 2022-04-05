@@ -16,6 +16,7 @@
     ripgrep
     bat
     zip unzip
+    ffmpeg
     termite
     obsidian
   ];
