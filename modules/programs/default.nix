@@ -14,13 +14,20 @@
 
   home.packages = with pkgs; [
     ripgrep
-    bat
     bottom
     zip unzip
     ffmpeg
     termite
     obsidian
   ];
+
+  programs.bat = {
+    enable = true;
+
+    config = {
+      theme = "base16";
+    };
+  };
 
   programs.exa = {
     enable = true;
