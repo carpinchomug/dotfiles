@@ -15,6 +15,7 @@
   home.packages = with pkgs; [
     ripgrep
     bat
+    bottom
     zip unzip
     ffmpeg
     termite
