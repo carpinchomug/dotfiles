@@ -19,6 +19,7 @@
     ffmpeg
     termite
     obsidian
+    vlc
   ];
 
   programs.bat = {
