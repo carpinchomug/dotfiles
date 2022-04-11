@@ -32,7 +32,7 @@ in
 
       lazygit-nvim
 
-      colorizer-lua
+      # colorizer-lua
 
       plenary-nvim
       telescope-nvim
