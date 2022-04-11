@@ -25,7 +25,7 @@
     # Latex
     texlive.combined.scheme-full
     bibutils
-    texlive
+    texlab
 
 
     # Lua
