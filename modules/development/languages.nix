@@ -25,6 +25,7 @@
     # Latex
     texlive.combined.scheme-full
     bibutils
+    texlive
 
 
     # Lua
@@ -41,6 +42,7 @@
       scipy
       matplotlib
       ipython
+      python-lsp-server
     ]))
 
 

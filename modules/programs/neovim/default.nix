@@ -30,7 +30,9 @@ in
 
       nvim-autopairs
 
-      fugitive
+      lazygit-nvim
+
+      colorizer-lua
 
       plenary-nvim
       telescope-nvim
