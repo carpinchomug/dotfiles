@@ -50,7 +50,7 @@
 
         network = {
           format = "{ifname}";
-          format-wifi = "{signalStrength}% 直";
+          format-wifi = "{signalStrength}% ";
           format-ethernet = "{ipaddr}/{cidr} ";
           format-disconnected = ""; # An empty format will hide the module
           tooltip-format = "{ifname} via {gwaddr} ";
