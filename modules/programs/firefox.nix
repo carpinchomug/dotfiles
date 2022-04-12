@@ -9,12 +9,8 @@
       default = {
         isDefault = true;
 
-        # userChrome = "${builtins.readFile ./chrome/userChrome.css}";
-        # userContent = "${builtins.readFile ./chrome/userContent.css}";
-
         settings = {
           "browser.shell.checkDefaultBrowser" = false;
-          # "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
         };
       };
     };

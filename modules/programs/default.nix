@@ -2,10 +2,10 @@
 
 {
   imports = [
-    ./firefox
     ./librewolf
     ./neovim
     ./chromium.nix
+    ./firefox.nix
     ./foot.nix
     ./helix.nix
     ./starship.nix
