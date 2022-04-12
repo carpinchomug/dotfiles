@@ -11,6 +11,7 @@
 
         settings = {
           "browser.shell.checkDefaultBrowser" = false;
+          "signon.rememberSignons" = false;
         };
       };
     };
