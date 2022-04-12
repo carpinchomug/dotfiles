@@ -14,6 +14,7 @@
 
         settings = {
           "browser.shell.checkDefaultBrowser" = false;
+          "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
         };
       };
     };
