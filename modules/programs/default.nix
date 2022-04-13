@@ -3,11 +3,11 @@
 {
   imports = [
     ./librewolf
+    ./helix
     ./neovim
     ./chromium.nix
     ./firefox.nix
     ./foot.nix
-    ./helix.nix
     ./starship.nix
     ./zathura.nix
   ];
