@@ -48,6 +48,9 @@
 
       set recolor-lightcolor          "#191724"
       set recolor-darkcolor           "#e0def4"
+
+      set recolor                     "false"
+      set recolor-keephue             "false"
     '';
   };
 }
