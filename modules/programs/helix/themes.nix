@@ -24,15 +24,15 @@
       {
         "ui.menu" = { fg = text; bg = overlay; };
         "ui.menu.selected" = { fg = iris; bg = surface; };
-        "ui.linenr" = { fg = muted; };
+        "ui.linenr" = { fg = highlightHigh; };
         "ui.linenr.selected" = { fg = text; };
-        "ui.selection" = { bg = highlightMed; };
-        "comment" = { fg = muted; };
+        "ui.selection" = { bg = highlightHigh; };
+        "comment" = subtle;
         "ui.statusline" = { fg = foam; bg = surface; };
         "ui.statusline.inactive" = { fg = iris; bg = surface; };
         "ui.help" = { fg = foam; bg = surface; };
         "ui.cursor" = { modifiers = [ "reversed" ]; };
-        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
+        "ui.cursor.match" = { bg = highlightHigh; modifiers = [ "underlined" ]; };
         "ui.text" = { fg = text; };
         "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
         "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
