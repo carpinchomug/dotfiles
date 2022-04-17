@@ -20,6 +20,7 @@
     termite
     obsidian
     vlc
+    gimp
   ];
 
   programs.bat = {
