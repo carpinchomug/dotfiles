@@ -10,10 +10,13 @@
         dpi-aware = "no";
       };
 
-      cursor = {
-        color = "e0def4 555169";
-        blink = "yes";
-      };
+      # revert to default:
+      #   color: inversed foreground and background
+      #   blink: no
+      # cursor = {
+      #   color = "e0def4 555169";
+      #   blink = "Yes";
+      # };
 
       mouse = {
         hide-when-typing = "yes";
