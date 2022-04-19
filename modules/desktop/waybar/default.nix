@@ -83,7 +83,7 @@
           format-charging = "{capacity}% ";
           format-plugged = "{capacity}% ";
 
-          format-icons = [ "" "" "" "" "" ];
+          format-icons = [ "" "" "" "" "" ];
         };
 
         tray = {
