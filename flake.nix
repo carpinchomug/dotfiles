@@ -8,14 +8,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    rose-pine-neovim = {
-      url = "github:rose-pine/neovim";
-      flake = false;
-    };
   };
 
-  outputs = { nixpkgs, home-manager, rose-pine-neovim, ... }: {
+  outputs = { nixpkgs, home-manager, ... }: {
     homeConfigurations.akiyoshi =
       home-manager.lib.homeManagerConfiguration rec {
         system = "x86_64-linux";
@@ -43,9 +38,7 @@
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
-        extraSpecialArgs = {
-          inherit rose-pine-neovim;
-        };
+        # extraSpecialArgs = { };
       };
   };
 }
