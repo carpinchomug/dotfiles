@@ -32,7 +32,7 @@
         "ui.statusline.inactive" = { fg = iris; bg = surface; };
         "ui.help" = { fg = foam; bg = surface; };
         "ui.cursor" = { modifiers = [ "reversed" ]; };
-        "ui.cursor.match" = { bg = subtle; modifiers = [ "underlined" ]; };
+        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
         "ui.text" = { fg = text; };
         "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
         "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
