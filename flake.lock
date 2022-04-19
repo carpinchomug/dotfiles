@@ -39,24 +39,7 @@
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs",
-        "rose-pine-neovim": "rose-pine-neovim"
-      }
-    },
-    "rose-pine-neovim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1650042177,
-        "narHash": "sha256-ZMcFtN78kQxOOWfncYwW73y47AmzSPCVpcByEV/Bpvc=",
-        "owner": "rose-pine",
-        "repo": "neovim",
-        "rev": "f0441971fb64f5c6439d312c3b6f34dbc6fdc078",
-        "type": "github"
-      },
-      "original": {
-        "owner": "rose-pine",
-        "repo": "neovim",
-        "type": "github"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
