@@ -24,7 +24,7 @@
       {
         "ui.menu" = { fg = text; bg = overlay; };
         "ui.menu.selected" = { fg = iris; bg = surface; };
-        "ui.linenr" = { fg = subtle; };
+        "ui.linenr" = { fg = muted; };
         "ui.linenr.selected" = { fg = text; };
         "ui.selection" = { bg = highlightMed; };
         "comment" = subtle;
@@ -32,7 +32,7 @@
         "ui.statusline.inactive" = { fg = iris; bg = surface; };
         "ui.help" = { fg = foam; bg = surface; };
         "ui.cursor" = { modifiers = [ "reversed" ]; };
-        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
+        "ui.cursor.match" = { bg = subtle; modifiers = [ "underlined" ]; };
         "ui.text" = { fg = text; };
         "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
         "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
