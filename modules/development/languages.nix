@@ -2,6 +2,9 @@
 
 {
   home.packages = with pkgs; [
+    # Bash
+    nodePackages.bash-language-server
+
     # C/C++
     gcc
 
