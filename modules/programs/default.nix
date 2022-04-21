@@ -21,6 +21,7 @@
     obsidian
     vlc
     gimp
+    libreoffice
   ];
 
   programs.bat = {
