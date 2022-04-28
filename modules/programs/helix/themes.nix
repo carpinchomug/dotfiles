@@ -22,50 +22,55 @@
 
       in
       {
-        "ui.menu" = { fg = text; bg = overlay; };
-        "ui.menu.selected" = { fg = iris; bg = surface; };
-        "ui.linenr" = { fg = muted; };
-        "ui.linenr.selected" = { fg = text; };
-        "ui.selection" = { bg = highlightMed; };
-        "comment" = subtle;
-        "ui.statusline" = { fg = foam; bg = surface; };
-        "ui.statusline.inactive" = { fg = iris; bg = surface; };
-        "ui.help" = { fg = foam; bg = surface; };
-        "ui.cursor" = { modifiers = [ "reversed" ]; };
-        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
-        "ui.text" = { fg = text; };
-        "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
-        "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
-        "operator" = rose;
-        "variable" = text;
-        "constant.numeric" = iris;
-        "constant" = gold;
-        "attributes" = gold;
         "type" = foam;
-        "string" = gold;
-        "property" = foam;
+        # "type.builtin"
+        "constructor" = gold;
+        "constant" = gold;
+        # "constant.builtin"
+        # "constant.builtin.boolean"
+        # "constant.character"
         "constant.character.escape" = muted;
+        "constant.numeric" = iris;
+        # "constant.numeric.integer"
+        # "constant.numeric.float"
+        "string" = gold;
+        # "string.regexp"
+        # "string.special"
+        # "string.special.path"
+        # "string.special.url"
+        # "string.special.symbol"
+        "comment" = subtle;
+        # "comment.line"
+        # "comment.block"
+        # "comment.block.documentation"
+        "variable" = text;
+        # "variable.builtin"
+        # "variable.parameter"
+        # "variable.other"
+        # "variable.other.member"
+        # "variable.function"
+        "label" = iris;
+        # "punctuation"
+        # "punctuation.delimiter"
+        # "punctuation.bracket"
+        "keyword" = pine;
+        # "keyword.control"
+        # "keyword.control.conditional"
+        # "keyword.control.repeat"
+        # "keyword.control.import"
+        # "keyword.control.return"
+        # "keyword.control.exception"
+        # "keyword.operator"
+        # "keyword.directive"
+        # "keyword.function"
+        "operator" = rose;
         "function" = rose;
         "function.builtin" = rose;
         "function.method" = foam;
-        "constructor" = gold;
-        "special" = gold;
-        "keyword" = pine;
-        "label" = iris;
+        # "function.macro"
+        # "function.special"
+        # "tag"
         "namespace" = pine;
-        "ui.popup" = { bg = surface; };
-        "ui.popup.info" = { bg = surface; };
-        "ui.window" = { bg = base; };
-        "text" = text;
-        "diff.plus" = foam;
-        "diff.delta" = rose;
-        "diff.minus" = love;
-
-        "info" = gold;
-        "hint" = gold;
-        "debug" = rose;
-        "diagnostic" = rose;
-        "error" = love;
 
         "markup.heading.marker" = subtle;
         "markup.heading.1" = { fg = love; modifiers = [ "bold" ]; };
@@ -74,13 +79,51 @@
         "markup.heading.4" = { fg = pine; modifiers = [ "bold" ]; };
         "markup.heading.5" = { fg = foam; modifiers = [ "bold" ]; };
         "markup.heading.6" = { fg = text; modifiers = [ "bold" ]; };
-        "markup.list" = { fg = love; };
+        "markup.list" = love;
+        # "markup.list.unnumbered"
+        # "markup.list.numbered"
         "markup.bold" = { fg = gold; modifiers = [ "bold" ]; };
         "markup.italic" = { fg = iris; modifiers = [ "italic" ]; };
         "markup.link.url" = { fg = pine; modifiers = [ "underlined" ]; };
-        "markup.link.text" = { fg = foam; };
-        "markup.quote" = { fg = rose; };
-        "markup.raw" = { fg = foam; };
+        # "markup.link.label"
+        "markup.link.text" = foam;
+        "markup.quote" = rose;
+        "markup.raw" = foam;
+        # "markup.raw.inline"
+        # "markup.raw.block"
+
+        "diff.plus" = foam;
+        "diff.minus" = love;
+        "diff.delta" = rose;
+        # "diff.delta.moved"
+
+        # "ui.background"
+        "ui.cursor" = { modifiers = [ "reversed" ]; };
+        # "ui.cursor.insert"
+        # "ui.cursor.select"
+        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
+        # "ui.cursor.primary"
+        "ui.linenr" = subtle;
+        "ui.linenr.selected" = text;
+        "ui.statusline" = foam;
+        "ui.statusline.inactive" = highlightHigh;
+        "ui.popup" = { fg = text; bg = overlay; };
+        "ui.popup.info" = text;
+        "ui.window" = highlightHigh;
+        "ui.help" = text;
+        "ui.text" = text;
+        "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
+        "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
+        "ui.menu" = { fg = text; bg = overlay; };
+        "ui.menu.selected" = iris;
+        "ui.selection" = { bg = highlightMed; };
+        # "ui.selection.primary"
+
+        "error" = love;
+        "warning" = gold;
+        "info" = iris;
+        "hint" = text;
+        "diagnostic" = rose;
       };
   };
 }
