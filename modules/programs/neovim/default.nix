@@ -7,8 +7,10 @@
     vimAlias = true;
 
     plugins = with pkgs.vimPlugins; [
+      # lsp
       nvim-lspconfig
 
+      # autocomplete
       nvim-cmp
       cmp-nvim-lsp
       cmp-nvim-lua
@@ -19,22 +21,19 @@
       cmp_luasnip
       friendly-snippets
 
+      # utilities
       comment-nvim
-
       nvim-autopairs
-
       lazygit-nvim
 
-      # colorizer-lua
+      # ui stuff
+      rose-pine
 
       plenary-nvim
       telescope-nvim
 
-      nightfox-nvim
-
       (nvim-treesitter.withPlugins (plugins: pkgs.tree-sitter.allGrammars))
 
-      rose-pine
     ];
 
     extraConfig = ''
