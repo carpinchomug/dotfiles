@@ -2,9 +2,11 @@
 
 {
   programs.helix.settings = {
-    theme = "my_theme"; 
+    theme = "my_theme";
 
     editor = {
+      line-number = "relative";
+
       cursor-shape = {
         insert = "bar";
         normal = "block";
