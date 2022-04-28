@@ -115,7 +115,7 @@
         "ui.text.focus" = { fg = foam; modifiers = [ "bold" ]; };
         "ui.text.info" = { fg = pine; modifiers = [ "bold" ]; };
         "ui.menu" = { fg = text; bg = overlay; };
-        "ui.menu.selected" = iris;
+        "ui.menu.selected" = foam;
         "ui.selection" = { bg = highlightMed; };
         # "ui.selection.primary"
 
@@ -124,6 +124,8 @@
         "info" = iris;
         "hint" = text;
         "diagnostic" = rose;
+
+        "special" = iris;
       };
   };
 }
