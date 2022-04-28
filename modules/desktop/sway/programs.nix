@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   home.packages = with pkgs; [
@@ -19,4 +19,10 @@
     pavucontrol
     pamixer
   ];
+
+  wayland.windowManager.sway.extraSessionCommands = ''
+    if [[ ! -d ~/Pictures/Screenshots ]]; then
+      mkdir -p ~/Pictures/Screenshots
+    fi
+  '';
 }
