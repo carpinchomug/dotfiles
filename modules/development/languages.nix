@@ -47,6 +47,7 @@
       sympy
       ipython
       jupyter
+      python-lsp-server
     ]))
 
 
