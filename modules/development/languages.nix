@@ -40,12 +40,13 @@
 
 
     # Python
-    (python3.withPackages (pythonPackages: with pythonPackages; [
+    (python3.withPackages (ps: with ps; [
       numpy
       scipy
       matplotlib
+      sympy
       ipython
-      python-lsp-server
+      jupyter
     ]))
 
 
