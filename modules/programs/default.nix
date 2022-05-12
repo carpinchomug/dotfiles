@@ -2,7 +2,6 @@
 
 {
   imports = [
-    ./librewolf
     ./helix
     ./neovim
     ./chromium.nix
