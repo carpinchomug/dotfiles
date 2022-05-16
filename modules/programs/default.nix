@@ -17,6 +17,7 @@
     bottom
     zip unzip
     ffmpeg
+    efibootmgr
 
     # gui apps
     vlc
