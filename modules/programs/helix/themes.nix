@@ -101,7 +101,7 @@
         "ui.cursor" = { modifiers = [ "reversed" ]; };
         # "ui.cursor.insert"
         # "ui.cursor.select"
-        "ui.cursor.match" = { bg = highlightMed; modifiers = [ "underlined" ]; };
+        "ui.cursor.match" = gold;
         # "ui.cursor.primary"
         "ui.linenr" = subtle;
         "ui.linenr.selected" = text;
@@ -123,7 +123,7 @@
         "warning" = gold;
         "info" = iris;
         "hint" = text;
-        "diagnostic" = rose;
+        "diagnostic" = { modifiers = [ "underlined" ]; };
 
         "special" = iris;
       };
