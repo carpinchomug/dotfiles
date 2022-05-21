@@ -19,6 +19,8 @@
     ffmpeg
     efibootmgr
 
+    alacritty    
+
     # gui apps
     vlc
     gimp
