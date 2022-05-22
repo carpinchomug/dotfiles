@@ -42,7 +42,7 @@ in
       };
 
       window = {
-        border = 2;
+        border = 3;
       };
 
       colors = {
