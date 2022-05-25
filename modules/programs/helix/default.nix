@@ -3,7 +3,7 @@
 
   imports = [
     ./config.nix
-    # ./languages.nix
+    ./languages.nix
     ./themes.nix
   ];
 }
