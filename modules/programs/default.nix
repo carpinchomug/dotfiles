@@ -12,14 +12,15 @@
   ];
 
   home.packages = with pkgs; [
+    alacritty    
+
     # terminal apps
     ripgrep
     bottom
     zip unzip
     ffmpeg
     efibootmgr
-
-    alacritty    
+    amfora
 
     # gui apps
     vlc
