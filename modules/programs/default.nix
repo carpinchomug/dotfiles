@@ -21,6 +21,7 @@
     ffmpeg
     efibootmgr
     amfora
+    thefuck
 
     # gui apps
     vlc
