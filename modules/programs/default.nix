@@ -22,6 +22,7 @@
     efibootmgr
     amfora
     thefuck
+    exercism
 
     # gui apps
     vlc
