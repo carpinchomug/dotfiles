@@ -10,7 +10,7 @@
       roots = [ ];
       comment-token = "%";
       language-server = { command = "texlab"; };
-      indent = { tab-width = 4; unit = "\t"; };
+      indent = { tab-width = 4; unit = "    "; };
     }
   ];
 }
