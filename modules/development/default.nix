@@ -6,6 +6,6 @@
     ./direnv.nix
     ./git.nix
     ./languages.nix
-    ./latexmk.nix
+    ./latexmkrc.nix
   ];
 }
