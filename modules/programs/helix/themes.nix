@@ -118,6 +118,8 @@
         "ui.menu.selected" = foam;
         "ui.selection" = { bg = highlightMed; };
         # "ui.selection.primary"
+        # "ui.virtual.ruler"
+        "ui.virtual.whitespace" = muted;
 
         "error" = love;
         "warning" = gold;
