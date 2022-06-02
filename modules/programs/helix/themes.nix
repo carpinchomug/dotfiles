@@ -106,7 +106,7 @@
         "ui.linenr" = subtle;
         "ui.linenr.selected" = text;
         "ui.statusline" = foam;
-        "ui.statusline.inactive" = highlightHigh;
+        "ui.statusline.inactive" = pine;
         "ui.popup" = { fg = text; bg = overlay; };
         "ui.popup.info" = text;
         "ui.window" = highlightHigh;
